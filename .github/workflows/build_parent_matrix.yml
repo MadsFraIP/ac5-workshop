@@ -20,8 +20,8 @@ jobs:
             group_id: "1000"
           - user_id: "1009"
             group_id: "1009"
-      with:
-        from_image: ${{ matrix.from_image }}
-        from_variant: ${{ matrix.from_variant }}
-        user_id: ${{ matrix.user_id }}
-        group_id: ${{ matrix.group_id }}
+    with:
+      from_image: ${{ matrix.from_image }}
+      from_variant: ${{ matrix.from_variant }}
+      user_id: ${{ matrix.user_id }}
+      group_id: ${{ matrix.group_id }}
