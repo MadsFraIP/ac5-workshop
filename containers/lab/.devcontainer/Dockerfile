@@ -24,4 +24,4 @@ USER ${USERNAME}
 # install the latest containerlab
 RUN bash -c "$(curl -sL https://get.containerlab.dev)"
 # install coder
-RUN curl -fsSL https://code-server.dev/install.sh | sh -s -- --version="4.115.0"# copy code-server entrypoint
+RUN curl -fsSL https://code-server.dev/install.sh | sh -s -- --version="4.115.0"
